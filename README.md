@@ -1,36 +1,71 @@
-This is a simple command-line calculator program written in Python. It allows users to perform basic arithmetic operations: addition, subtraction, multiplication, and division. The program runs in a loop, letting users choose operations until they decide to exit.
+## 🧮 Simple Python Calculator
 
-Features:
+This is a **Simple Python Calculator** that performs basic arithmetic operations, including addition, subtraction, multiplication, and division. The user interacts with the calculator through a console-based interface.
 
-Addition
+## 🚀 Features
 
-Subtraction
+- ➕ **Addition** – Add two numbers.
+- ➖ **Subtraction** – Subtract one number from another.
+- ✖️ **Multiplication** – Multiply two numbers.
+- ➗ **Division** – Divide one number by another with error handling for division by zero.
+- ❌ **Quit Option** – Exit the calculator when done.
 
-Multiplication
+## 📦 Requirements
 
-Division 
+Ensure you have Python installed on your computer. To check your Python version, run:
 
-Option to exit the calculator
+```bash
+python --version
+```
 
-How It Works:
+## 💻 How to Run
 
-1 for Subtraction
+1. Copy the code into a `.py` file, for example: `calculator.py`.
 
-2 for Addition
+2. Open a terminal in the same directory as the file.
 
-3 for Multiplication
+3. Run the program with:
 
-4 for Division
+```bash
+python calculator.py
+```
 
-5 to Quit
+4. Follow the on-screen instructions:
+   - Choose an operation (1-4).
+   - Enter the two numbers for the calculation.
+   - Enter `5` to quit the calculator.
 
-Instructions to use:
+## 🖱️ Example Usage
 
-The user selects an operation by entering the corresponding number.
+```
+PICK WHAT OPERATION YOU WANT TO DO:
+1. Subtract
+2. Add
+3. Multiply
+4. Division
+5. Quit Calculator
 
-The program asks for two numbers to perform the selected operation.
+Enter your choice: (1/2/3/4/5): 2
+Enter first number: 10
+Enter second number: 5
+10.0 + 5.0 = 15.0
+```
 
-The result is displayed, and the user can continue with another operation or exit.
+If you attempt division by zero:
 
+```
+Enter your choice: (1/2/3/4/5): 4
+Enter first number: 10
+Enter second number: 0
+10.0 / 0.0 = ERROR
+```
 
+## ⚙️ Customization
 
+- Add more complex operations by defining new functions.
+- Update the menu options in the `Calculator()` function.
+
+## 📝 Known Issues
+
+- Invalid input (non-numeric) for numbers will raise an error.
+- If the user chooses an invalid option, the program ends immediately instead of looping.
