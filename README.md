@@ -1,8 +1,8 @@
-## 🧮 Simple Python Calculator
+## Simple Python Calculator
 
 This is a **Simple Python Calculator** that performs basic arithmetic operations, including addition, subtraction, multiplication, and division. The user interacts with the calculator through a console-based interface.
 
-## 🚀 Features
+## Features
 
 - ➕ **Addition** – Add two numbers.
 - ➖ **Subtraction** – Subtract one number from another.
@@ -10,7 +10,7 @@ This is a **Simple Python Calculator** that performs basic arithmetic operations
 - ➗ **Division** – Divide one number by another with error handling for division by zero.
 - ❌ **Quit Option** – Exit the calculator when done.
 
-## 📦 Requirements
+## Requirements
 
 Ensure you have Python installed on your computer. To check your Python version, run:
 
@@ -18,7 +18,7 @@ Ensure you have Python installed on your computer. To check your Python version,
 python --version
 ```
 
-## 💻 How to Run
+## How to Run
 
 1. Copy the code into a `.py` file, for example: `calculator.py`.
 
@@ -60,12 +60,15 @@ Enter second number: 0
 10.0 / 0.0 = ERROR
 ```
 
-## ⚙️ Customization
+## Customization
 
 - Add more complex operations by defining new functions.
 - Update the menu options in the `Calculator()` function.
 
-## 📝 Known Issues
+## Known Issues
 
 - Invalid input (non-numeric) for numbers will raise an error.
 - If the user chooses an invalid option, the program ends immediately instead of looping.
+
+## Suggestions For Improvement 
+-If anyone has any ideas that I can improve on, please feel free to reach out.
